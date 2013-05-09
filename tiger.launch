@@ -1,0 +1,6 @@
+<launch>
+  <node name="controlpipe" pkg="appl" type="controlpipe" output="screen" >
+    <param name="appl_problem_name" value="$(find appl)/examples/POMDPX/Tiger.pomdpx" />
+    <param name="appl_policy_name" value="$(find appl)/examples/POMDPX/Tiger.policy" />
+  </node>
+</launch>
