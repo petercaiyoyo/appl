@@ -40,7 +40,7 @@ int main(int argc,char**argv)
 		{
 			state_str="obs-right";
 		}
-		srv.request.cmd=12;
+		srv.request.cmd=2;
 		srv.request.obs=state_str;
 		client.call(srv);
 	}
